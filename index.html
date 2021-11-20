@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gvidonas Kybartas</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container change" onclick="myFunction(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+  
+  <script>
+  function myFunction(x) {
+    x.classList.toggle("change");
+    $("nav").toggle("slow");
+  }
+  </script>
+    <nav class="nav">
+        <a href=""><h1>Gvidonas<br>Kybartas</h1></a>
+        <a href="">Apie mane</a>
+        <a href="">3D Vizualizacija</a>
+        <a href="">Excel paslaugos</a>
+        <a href="">Frontend programavimas</a>
+        <a href="">Unity programavimas</a>
+    </nav>
+    <div class="hero">
+            <video id="bg_video" class="bg_video" preload="auto" autoplay="" muted="" loop="">
+                                        <source src="video/vizualizija.mp4" type="video/mp4">
+            </video>
+        <img class="imgVideo" src="images/namas_vasara.jpg" alt="namas vasara">
+        <div class="tekstas">3D Vizualizacija</div>
+        </div>
+    <main>
+    <section>
+    <h4>Esu Gvidonas.</h4>
+    <p>Mane nuolatos domino tikslieji mokslai. Todėl pasirinkau karjerą sieti su programavimu, skaičiavimu, projektavimu.</p>
+    </section>
+    <img class="nuotrauka" src="images/trofimovsko_namas.jpg" alt="trofimovsko namas">
+    <section>
+        <h4>Domina?</h4>
+        <p>Galite susisiekti:</p>
+        <ul>
+            <li>Telefonu: 8-652-37191</li>
+            <li>El. paštu: gvidonas.ky7901@go.kauko.lt</li>
+            <li>Arba rašyti į kontaktus</li>
+        </ul>
+    </section>
+    <form action="/action_page.php">
+        <h4 class="kontaktai">Kontaktai</h4>
+        <input type="text" class="fname" name="fname" placeholder="Vardas Pavardė"><br>
+        <input type="text" class="fname" name="fname" placeholder="El. paštas"><br>
+        <input type="text" class="fname" name="fname" placeholder="Telefonas"><br>
+        <textarea id="w3review" placeholder="Pageidavimas" name="w3review" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Siųsti" class="mygtukas"><br>
+      </form>
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=sukileliu%20kaunas&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe><a href="https://www.online-timer.net"></a>
+        </div>
+    </div>
+  </main>
+    <footer>gvidonas.lt</footer>
+</body>
+</html>
