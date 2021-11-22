@@ -58,10 +58,15 @@ nav a {
   text-align: center;
   padding: 10px;
   max-width: 160px;
+  width: 160px;
 }
 
 nav a:hover {
   color: cadetblue;
+}
+
+nav a:not(:first-of-type) {
+  border-top: 2px solid;
 }
 
 p, ul, nav {
@@ -271,6 +276,12 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  nav a:not(:first-of-type) {
+    border: none;
+  }
+  nav a {
+    width: auto;
   }
   .bg_video {
     width: 100%;
