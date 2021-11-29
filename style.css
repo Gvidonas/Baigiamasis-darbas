@@ -125,8 +125,8 @@ img {
   left: 28%;
   font-size: xx-large;
   color: white;
-  -webkit-animation: mymove 35s infinite;
-          animation: mymove 35s infinite;
+  -webkit-animation: mymove 14s infinite;
+          animation: mymove 14s infinite;
   -webkit-transition: -webkit-transform 0.4s;
   transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
